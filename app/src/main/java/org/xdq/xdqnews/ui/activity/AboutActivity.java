@@ -31,8 +31,6 @@ import io.reactivex.observers.DisposableObserver;
 
 /**
  * Created by  xiangdingquan  on 2018/3/15.
- *
- *
  */
 
 public class AboutActivity extends BaseActivity {
@@ -45,10 +43,10 @@ public class AboutActivity extends BaseActivity {
 
     private String[] imageUrls = {
 
-            "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1521606479582&di=c30152e6e57569688a3585012b0287f5&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2Fb21c8701a18b87d6232299000d0828381f30fd48.jpg",
-            "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1522201245&di=15d969c13a45ed8343c6d64c238fe8ec&imgtype=jpg&er=1&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2F32fa828ba61ea8d35e5c44059d0a304e251f58b0.jpg",
-            "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1521606568453&di=ba3fbdfc2cf74af6b2558d691d39f579&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimage%2Fc0%253Dshijue1%252C0%252C0%252C294%252C40%2Fsign%3Df6c0be665866d0166a14966bff42be72%2F0824ab18972bd407fae1ee5671899e510fb30972.jpg",
-            "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1522201302&di=6ef46929552df0f7bb105db65eb2e3af&imgtype=jpg&er=1&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2F78310a55b319ebc462cd5e998826cffc1e17167c.jpg",
+            //"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1521606479582&di=c30152e6e57569688a3585012b0287f5&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2Fb21c8701a18b87d6232299000d0828381f30fd48.jpg",
+            //            "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1522201245&di=15d969c13a45ed8343c6d64c238fe8ec&imgtype=jpg&er=1&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2F32fa828ba61ea8d35e5c44059d0a304e251f58b0.jpg",
+            //            "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1521606568453&di=ba3fbdfc2cf74af6b2558d691d39f579&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimage%2Fc0%253Dshijue1%252C0%252C0%252C294%252C40%2Fsign%3Df6c0be665866d0166a14966bff42be72%2F0824ab18972bd407fae1ee5671899e510fb30972.jpg",
+            //           "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1522201302&di=6ef46929552df0f7bb105db65eb2e3af&imgtype=jpg&er=1&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2F78310a55b319ebc462cd5e998826cffc1e17167c.jpg",
             "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1522201272&di=18dcad88852a9aa9011445c9fa9f0de4&imgtype=jpg&er=1&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F1%2F580ed3a031ea7.jpg"
     };
 
@@ -84,7 +82,7 @@ public class AboutActivity extends BaseActivity {
 
 
     private void loadImage() {
-        Glide.with(this).load(imageUrls[new Random().nextInt(5)]).into(new SimpleTarget<Drawable>() {
+        Glide.with(this).load(imageUrls[new Random().nextInt(1)]).into(new SimpleTarget<Drawable>() {
             @Override
             public void onResourceReady(@NonNull Drawable resource, @Nullable Transition<? super Drawable> transition) {
                 mImageSwitcher.setImageDrawable(resource);

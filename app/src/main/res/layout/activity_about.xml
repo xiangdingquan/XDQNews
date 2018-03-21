@@ -9,7 +9,7 @@
     <android.support.design.widget.AppBarLayout
         android:id="@+id/app_bar"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_height="200dp"
         android:fitsSystemWindows="true"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
@@ -81,59 +81,6 @@
                 android:textColor="@color/colorTextDark"
                 android:textSize="16sp"
                 android:textStyle="bold"/>
-
-            <include layout="@layout/line_gap"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="16dp"
-                android:gravity="center"
-                android:text="概述"
-                android:textColor="@color/colorTextDark2nd"
-                android:textSize="16sp"/>
-
-            <Button
-                android:id="@+id/btn_feedback"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="?attr/selectableItemBackground"
-                android:drawablePadding="16dp"
-                android:drawableStart="@drawable/ic_feedback_dark_compat"
-                android:gravity="left|center_vertical"
-                android:paddingLeft="16dp"
-                android:text="意见反馈"
-                android:textColor="@color/colorTextDark2nd"
-                android:textSize="14sp"
-                />
-
-            <Button
-                android:id="@+id/btn_check_update"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="?attr/selectableItemBackground"
-                android:drawablePadding="16dp"
-                android:drawableStart="@drawable/ic_update_dark_compat"
-                android:gravity="left|center_vertical"
-                android:paddingLeft="16dp"
-                android:text="检查更新"
-                android:textColor="@color/colorTextDark2nd"
-                android:textSize="14sp"
-                />
-
-            <Button
-                android:id="@+id/btn_share_app"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="?attr/selectableItemBackground"
-                android:drawablePadding="16dp"
-                android:drawableStart="@drawable/ic_share_dark_compat"
-                android:gravity="left|center_vertical"
-                android:paddingLeft="16dp"
-                android:text="分享应用"
-                android:textColor="@color/colorTextDark2nd"
-                android:textSize="14sp"
-                />
 
             <include layout="@layout/line_gap"/>
 
