@@ -9,6 +9,10 @@
   1. 天气信息查看，数据来源于 http://tj.nineton.cn 中央天气预报
   2. 泡在网上的日子新闻 数据来源于 http://www.jcodecraeer.com 
   3. 图片资源 数据来源于 http://gank.io 和 http://image.baidu.com
+  4. 使用rxjava实现异步
+  5. 使用retrofit实现网络请求
+  6. 缓存处理
+  7. 图片加载、缓存处理
 #### 截图
   <a href="art/1.png"><img src="art/1.png" width="48%"/></a>
   <a href="art/2.png"><img src="art/2.png" width="48%"/></a>
