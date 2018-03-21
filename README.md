@@ -25,13 +25,13 @@
 An android developer in WuHan
 
 #### Thanks
-butterknife  https://github.com/JakeWharton/butterknife
-eventbus  https://github.com/greenrobot/EventBus    
-rxjava  https://github.com/ReactiveX/RxJava    
-retrofit  https://github.com/square/retrofit   
-BaseRecyclerViewAdapterHelper  https://github.com/CymChad/BaseRecyclerViewAdapterHelper
-glide  https://github.com/bumptech/glide
-jsoup  https://github.com/jhy/jsoup
+ butterknife  https://github.com/JakeWharton/butterknife
+ eventbus  https://github.com/greenrobot/EventBus    
+ rxjava  https://github.com/ReactiveX/RxJava    
+ retrofit  https://github.com/square/retrofit   
+ BaseRecyclerViewAdapterHelper  https://github.com/CymChad/BaseRecyclerViewAdapterHelper
+ glide  https://github.com/bumptech/glide
+ jsoup  https://github.com/jhy/jsoup
 
 
 
