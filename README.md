@@ -25,4 +25,23 @@
 An android developer in WuHan
 
 #### Thanks
+  引入：
+  ```
+    compile 'org.greenrobot:eventbus:3.1.1'
+    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    compile 'io.reactivex.rxjava2:rxjava:2.1.7'
+    compile 'com.trello.rxlifecycle2:rxlifecycle:2.2.1'
+    compile 'com.trello.rxlifecycle2:rxlifecycle-components:2.2.1
+    compile 'com.squareup.retrofit2:retrofit:2.3.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.3.0 
+    compile 'com.squareup.retrofit2:converter-scalars:2.3.0' 
+    compile 'com.squareup.retrofit2:adapter-rxjava2:2.3.0 
+    compile 'com.squareup.okhttp3:logging-interceptor:3.9.1'
+    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.35'
+    implementation 'com.github.bumptech.glide:glide:4.6.1'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.6.1'
+    implementation 'com.afollestad.material-dialogs:core:0.9.6.0'
+    implementation 'com.afollestad.material-dialogs:commons:0.9.6.0'
+    compile 'org.jsoup:jsoup:1.10.1'
+  ```
 
