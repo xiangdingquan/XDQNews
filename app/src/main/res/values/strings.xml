@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">XDQNews</string>
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="theme">主题</string>
+    <string name="done">确定</string>
+    <string name="cancel">取消</string>
+
+    <string-array name="share_type">
+        <item>纯文本</item>
+        <item>仿锤子便签</item>
+    </string-array>
+
+    <string-array name="color_name">
+        <item>青石色</item>
+        <item>山茱萸</item>
+        <item>绿篱</item>
+        <item>樱草黄</item>
+        <item>烈焰红</item>
+        <item>天堂岛</item>
+        <item>甘蓝</item>
+        <item>粉蓍草</item>
+        <item>尼亚加拉</item>
+    </string-array>
+
+    <string name="open_source">
+        • Glide: github.com/bumptech/glide\n• RxJava: github.com/ReactiveX/RxJava\n• Retrofit: github.com/square/retrofit\n• EventBus: github.com/greenrobot/EventBus\n• RxAndroid: github.com/ReactiveX/RxAndroid\n• RxPermissions: github.com/tbruyelle/RxPermissions\n• BaseRecyclerViewAdapterHelper: github.com/CymChad/BaseRecyclerViewAdapterHelper
+    </string>
+
+    <string name="menu_action_refresh">刷新</string>
+    <string name="menu_action_share">分享</string>
+    <string name="menu_action_copy">复制URL</string>
+    <string name="menu_action_openwith">其他方式打开</string>
+
+    <string name="copied_to_clipboard">已复制到粘贴板</string>
+
+
+    <string name="weather">天气概况</string>
+    <string name="paowang">泡网新闻</string>
+    <string name="fuli">福利中心</string>
+
+
+    <string name="setting">设置</string>
+    <string name="about">关于</string>
+    <string name="save">保存</string>
+    <string name="setting_screen">设为壁纸</string>
+    <string name="share">分享</string>
+
+
+    <string-array name="tts_voice_item">
+        <item>小燕（女声，普通话）</item>
+        <item>小宇（男声，普通话）</item>
+        <item>小妍（女声，普通话）</item>
+        <item>小琪（女声，普通话）</item>
+        <item>小峰（男声，普通话）</item>
+        <item>小梅（女声，粤语）</item>
+        <item>小莉（女声，台湾普通话）</item>
+    </string-array>
+
+    <string-array name="tts_voice_value">
+        <item>xiaoyan</item>
+        <item>xiaoyu</item>
+        <item>vixy</item>
+        <item>xiaoqi</item>
+        <item>vixf</item>
+        <item>xiaomei</item>
+        <item>xiaolin</item>
+    </string-array>
+
+</resources>

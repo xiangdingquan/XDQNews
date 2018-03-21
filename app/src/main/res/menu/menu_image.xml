@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.girl.PictureActivity">
+    <item
+        android:id="@+id/menu_share"
+        android:icon="@drawable/ic_share_white"
+        android:title="@string/share"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_save"
+        android:title="@string/save"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_wallpaper"
+        android:title="@string/setting_screen"
+        app:showAsAction="never" />
+</menu>
