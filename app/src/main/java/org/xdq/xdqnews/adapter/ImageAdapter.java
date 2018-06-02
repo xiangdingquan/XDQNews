@@ -12,7 +12,7 @@ import com.chad.library.adapter.base.BaseViewHolder;
 
 import org.xdq.xdqnews.R;
 import org.xdq.xdqnews.pojo.Image;
-import org.xdq.xdqnews.widght.RatioImageView;
+import org.xdq.xdqnews.widget.RatioImageView;
 
 import java.util.List;
 

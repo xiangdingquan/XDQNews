@@ -8,7 +8,7 @@ import org.jsoup.nodes.Element;
 import org.xdq.xdqnews.R;
 import org.xdq.xdqnews.base.BaseActivity;
 import org.xdq.xdqnews.http.base.SimpleDisposableObserver;
-import org.xdq.xdqnews.widght.CustomWebView;
+import org.xdq.xdqnews.widget.CustomWebView;
 
 import butterknife.BindView;
 import io.reactivex.Observable;

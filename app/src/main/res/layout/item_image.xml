@@ -5,7 +5,7 @@
     android:layout_margin="2dp"
     android:orientation="vertical">
 
-    <org.xdq.xdqnews.widght.RatioImageView
+    <org.xdq.xdqnews.widget.RatioImageView
         android:id="@+id/iv_fuli"
         android:layout_width="match_parent"
         android:layout_height="200dp"

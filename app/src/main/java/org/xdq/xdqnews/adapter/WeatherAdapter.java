@@ -13,7 +13,7 @@ import org.xdq.xdqnews.app.NewsGlobal;
 import org.xdq.xdqnews.pojo.Weather;
 import org.xdq.xdqnews.util.SizeUtils;
 import org.xdq.xdqnews.util.TimeUtils;
-import org.xdq.xdqnews.widght.WeatherChartView;
+import org.xdq.xdqnews.widget.WeatherChartView;
 
 import java.text.SimpleDateFormat;
 import java.util.List;

@@ -18,12 +18,12 @@
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
             app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-        <org.xdq.xdqnews.widght.CustomWebView
+        <org.xdq.xdqnews.widget.CustomWebView
             android:id="@+id/wv_news"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-        </org.xdq.xdqnews.widght.CustomWebView>
+        </org.xdq.xdqnews.widget.CustomWebView>
     </LinearLayout>
 
 </android.support.design.widget.CoordinatorLayout>
