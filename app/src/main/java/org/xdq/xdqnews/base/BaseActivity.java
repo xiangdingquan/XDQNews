@@ -25,6 +25,10 @@ import butterknife.Unbinder;
 
 public abstract class BaseActivity extends AppCompatActivity {
 
+    static {
+        AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
+    }
+
     private Unbinder mUnbinder;
 
 
@@ -56,9 +60,7 @@ public abstract class BaseActivity extends AppCompatActivity {
      */
     protected abstract void loadData();
 
-    static {
-        AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
-    }
+
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

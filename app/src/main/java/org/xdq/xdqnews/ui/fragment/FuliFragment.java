@@ -65,14 +65,14 @@ public class FuliFragment extends BaseFragment {
         data = new Bundle();
         data.putString("tag1","美女");
         fragment.setArguments(data);
-        adapter.addFrag(fragment,"百度美女");
+        adapter.addFrag(fragment,"你懂的");
 
         fragment = new BaiduFragment();
         data = new Bundle();
         data.putString("tag1","明星");
         data.putString("tag2","刘德华");
         fragment.setArguments(data);
-        adapter.addFrag(fragment,"百度明星刘德华");
+        adapter.addFrag(fragment,"刘德华");
 
 
         fragment = new BaiduFragment();
@@ -80,14 +80,14 @@ public class FuliFragment extends BaseFragment {
         data.putString("tag1","明星");
         data.putString("tag2","杨幂");
         fragment.setArguments(data);
-        adapter.addFrag(fragment,"百度明星杨幂");
+        adapter.addFrag(fragment,"杨幂");
 
         fragment = new BaiduFragment();
         data = new Bundle();
         data.putString("tag1","明星");
         data.putString("tag2","张学友");
         fragment.setArguments(data);
-        adapter.addFrag(fragment,"百度明星张学友");
+        adapter.addFrag(fragment,"张学友");
 
 
         fragment = new BaiduFragment();
@@ -95,7 +95,7 @@ public class FuliFragment extends BaseFragment {
         data.putString("tag1","明星");
         data.putString("tag2","周星驰");
         fragment.setArguments(data);
-        adapter.addFrag(fragment,"百度明星周星驰");
+        adapter.addFrag(fragment,"周星驰");
 
 
         fragment = new BaiduFragment();
